@@ -12,4 +12,4 @@ Batch converts all of the LAZ files in a directory to LAS files.
 ####  Batch_las_to_raster
 Converts all of the LAS files in a directory to geoTiffs in another directory.  The tool has a **kwargs input where you can change the output geotiff from intensity, first return last return...as detailed in ESRI tool description.
 
-##### Some tools require laspy available via pip and gdal python bindings but all that can be installed with pip and conda but you will need a cloned arcpy environment to install that library.  
+##### Some tools require laspy available via pip and gdal python bindings. Laspy can be installed with pip and conda but you will need a cloned arcpy environment to install that library.  
