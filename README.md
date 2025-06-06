@@ -1,6 +1,15 @@
 # LAS_tools
-Scripts to batch convert LAZ to LAS and append LAS files into a single LAS file using laspy
-Use pip install laspy to get the laspy library.
-Change data paths and run in a Python IDE
 
-Merge_LAS requires an existing LAS file.  Take one of the existing LAS files in your directory of LAS files and move it to a new directory, append all the remaining files to that moved LAS.
+#### Scripts to batch process LAZ and LAS files
+These tools are meant to be executed from a Python IDE
+
+### Merge_LAS 
+Takes all of the LAS files in a directory and appends them to an existing LAS file.  Take one of the existing LAS files in your directory of LAS files and move it to a new directory, append all the remaining files to that moved LAS.
+
+### LAZ_to_LAS
+Batch converts all of the LAZ files in a directory to LAS files.
+
+###  Batch_las_to_raster
+Converts all of the LAS files in a directory to geoTiffs in another directory.  The tool has a **kwargs input where you can change the output geotiff from intensity, first return last return...as detailed in ESRI tool description.
+
+##### Some tools have library dependencies like laspy and gdal python bindings but all that can be installed with pip.  
