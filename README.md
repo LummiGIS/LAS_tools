@@ -1,7 +1,7 @@
 # LAS_tools
 
 ### Scripts to batch process LAZ and LAS files
-These tools are meant to be executed from a Python IDE that points to the Python installation for ArcGIS Pro.
+These tools are meant to be executed from a Python IDE that points to the Python installation for ArcGIS Pro (or in a Python window in ArcGIS Pro after editing paths).
 
 #### Merge_LAS 
 Takes all of the LAS files in a directory and appends them to an existing LAS file.  Take one of the existing LAS files in your directory of LAS files and move it to a new directory, append all the remaining files to that moved LAS.
